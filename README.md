@@ -50,9 +50,7 @@ If you are using git bash
     
 If you are using CMD
 
-    $ cd venv_name/Scripts
-    $ activate
-    $ cd ../../
+    $ venv_name/Scripts/activate
     
     
 Now install the package requirements by:
@@ -60,6 +58,9 @@ Now install the package requirements by:
     $ pip install -r requirements.txt
     
 Well your environment is ready now.
+--Make sure to install Django in your venv before migrating--
+
+      $ pip install django
 
 Finally, you have to make migrations to get the app started and create a new superuser to interact with the admin dashboard.
 So run the following commands as follows:
